@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+h1{
+    color:red;
+}
+back{
+}
+body{
+    background-image:url(paisagem.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

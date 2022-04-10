@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <hr>
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/imagemp.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="Imagens/imagemm.png" type="image/png">
+        <img src="Imagens/imagemg.png" alt="">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls><!--Podemos usar o comando loop para loopar a msc-->
+    <source src="midias/happy-mistake.mp3" type="audio/mpeg">
+    <p>Infezlimente o seu navegador não conseguir carregar o áudio <a href="midias/happy-mistake.mp3"> clique aqui para baixar o arquivo.</a></p>
+    </audio>
+     <!--Pra melhor compatibilidade seria melehor colocar em source todos os tipos de audio(ogg.wav.mp3)-->
+    <!--compativeis mp3 ogg wav -->
+</body>
+</html>
